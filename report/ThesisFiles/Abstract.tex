@@ -1,0 +1,33 @@
+%!TEX root = ../Demo.tex
+% 中文摘要
+\begin{abstract}
+
+数字电子技术和信息技术日新月异，在多媒体应用技术、计算机应用、图像
+与语音信号处理，通信服务等众多领域中，都已经广泛地使用到基于数字信号处
+理的理论与技术。快速傅里叶变换(FFT)在很大程度上推动了数字信号处理技术的
+发展，因为它的运算时间和直接计算离散傅里叶变换(DFT)相比大大减少，更有
+利于实现数字信号处理的应用，并为数字信号处理技术在实时处理各种信号的应
+用中提供了优势。因此，本文对 FFT 算法和实现方法的研究对其进一步发展起到
+了非常重要的理论指导和实践意义
+
+
+
+    本文的研究内容立足于FPGA实现DIT-FFT算法，这种算法不仅计算流程图比较简单，
+    而且具有结构良好的特点，更重要的是这中算法在理论上是最快的DFT算法，只需要
+    $N /2\log_2 N$ 次复数乘法运算。本文首先对DIT-FFT算法进行
+    简单的理论说明及其推到，并分模块具体分析了每个模块应该实现
+    哪些功能。最后，用Verilog硬件描述语言对各个共功能模块进行功能仿真
+    ，仿真实现16点复数的FFT。用测试信号对本设计进行测试，并分析
+    计算结果和Matlab计算结果的误差，结果表明本文的设计正确。
+
+\end{abstract}
+\keywords{FFT变换, DIT-FFT算法, Verilog HDL,蝶形算法}
+
+% 英文摘要
+\begin{enabstract}
+  This paper is just a sample example for the users in learning the \XDUthesis. I will try my best to use the commands and environments which are involved by the \XDUthesis. Also, the popular composition skills in figures, tables and equations will be elaborated.
+  
+  In the part unimportant, I will show something others, such as poems and lyrics.
+
+\end{enabstract}
+\enkeywords{XDUthesis, commands, environments, skills}
